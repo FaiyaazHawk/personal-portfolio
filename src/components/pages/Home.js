@@ -8,6 +8,12 @@ function Home() {
             <main className="hero">
                 <h1>Faiyaaz Haque</h1>
                 <h3>Software Developer</h3>
+                <span>
+                    <button>Github</button>
+                    <button>LinkedIn</button>
+                    <button>Twitter</button>
+                    <button>Gmail</button>
+                </span>
             </main>
            <Foot/>
         </>

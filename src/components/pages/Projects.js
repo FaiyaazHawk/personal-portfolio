@@ -12,7 +12,7 @@ function Projects() {
             <Container>
             <h1>Projects</h1>
             <div className="project-card">
-                <h3>Store with cart</h3>
+                <h3><u>Store with cart</u></h3>
                 <p>E-commerce site with a basic Cart</p>
                 <img src={cart} alt="gif of shopping cart project"></img>
                 <br></br>
@@ -21,7 +21,7 @@ function Projects() {
                 <a className="link" href="https://github.com/FaiyaazHawk/React-shopping-cart">Link to Repo</a>
             </div>
             <div className="project-card">
-                <h3>Memory Game</h3>
+                <h3><u>Memory Game</u></h3>
                 <p>Simple game of recollection. Select each character once 
                 <br></br>while the deck gets shuffled. Not yet optimized for mobile</p>
                 <img src={game} alt="gif of memory game"></img>
@@ -31,7 +31,7 @@ function Projects() {
                 <a className="link" href="https://github.com/FaiyaazHawk/React-memory-game">Link to Repo</a>
             </div>
             <div className="project-card">
-                <h3>JavaScript Tic-Tac-Toe</h3>
+                <h3><u>JavaScript Tic-Tac-Toe</u></h3>
                 <p>Simple way to play tic-tac-toe using JavaScript</p>
                 <img src={ttt} alt="gif of tic tac toe game"></img>
                 <br></br>
