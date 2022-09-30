@@ -7,7 +7,7 @@ import LinkContainer from "react-router-bootstrap/LinkContainer"
 function Header() {
     return (
         <>
-            <Navbar>
+            <Navbar bg="dark" variant='dark'>
                 <Container>
                     <Nav className="me-auto">
                     <LinkContainer to="/">
