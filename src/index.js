@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Routeswitch from './components/Routeswitch';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./custom.scss"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -9,7 +9,6 @@ function Header() {
         <>
             <Navbar>
                 <Container>
-                    <Navbar.Brand >Faiyaaz Haque</Navbar.Brand>
                     <Nav className="me-auto">
                     <LinkContainer to="/">
                          <Nav.Link>Home</Nav.Link>

@@ -1,8 +1,16 @@
 import React from "react";
+import '../Styles/Home.scss'
+import Foot from "../Foot";
 
 function Home() {
     return (
-        <h1>Home page</h1>
+        <>
+            <main className="hero">
+                <h1>Faiyaaz Haque</h1>
+                <h3>Software Developer</h3>
+            </main>
+           <Foot/>
+        </>
     )
 }
 
