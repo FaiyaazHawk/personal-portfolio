@@ -1,6 +1,10 @@
 import React from "react";
 import Foot from "../Foot";
 import { Container } from "react-bootstrap";
+import cart from '/home/faiyaaz/the-odin-project/personal-page/src/assets/gifs/Shopping cart.gif'
+import game from '/home/faiyaaz/the-odin-project/personal-page/src/assets/gifs/memory-game.gif'
+import ttt from '/home/faiyaaz/the-odin-project/personal-page/src/assets/gifs/Tictactoe.gif'
+import '../Styles/Projects.scss'
 
 function Projects() {
     return (
@@ -9,27 +13,31 @@ function Projects() {
             <h1>Projects</h1>
             <div className="project-card">
                 <h3>Store with cart</h3>
-                <p>project desciption</p>
-                <img></img>
-                <a>Link to Demo</a>
+                <p>E-commerce site with a basic Cart</p>
+                <img src={cart} alt="gif of shopping cart project"></img>
                 <br></br>
-                <a>Link to Repo</a>
+                <a className="link" href="https://react-shopping-cart-3hjk.vercel.app/">Link to Demo</a>
+                <br></br>
+                <a className="link" href="https://github.com/FaiyaazHawk/React-shopping-cart">Link to Repo</a>
             </div>
             <div className="project-card">
-                <h3>Store with cart</h3>
-                <p>project desciption</p>
-                <img></img>
-                <a>Link to Demo</a>
+                <h3>Memory Game</h3>
+                <p>Simple game of recollection. Select each character once 
+                <br></br>while the deck gets shuffled. Not yet optimized for mobile</p>
+                <img src={game} alt="gif of memory game"></img>
                 <br></br>
-                <a>Link to Repo</a>
+                <a className="link" href="https://react-memory-game-eta.vercel.app/">Link to Demo</a>
+                <br></br>
+                <a className="link" href="https://github.com/FaiyaazHawk/React-memory-game">Link to Repo</a>
             </div>
             <div className="project-card">
-                <h3>Store with cart</h3>
-                <p>project desciption</p>
-                <img></img>
-                <a>Link to Demo</a>
+                <h3>JavaScript Tic-Tac-Toe</h3>
+                <p>Simple way to play tic-tac-toe using JavaScript</p>
+                <img src={ttt} alt="gif of tic tac toe game"></img>
                 <br></br>
-                <a>Link to Repo</a>
+                <a className="link" href="https://faiyaazhawk.github.io/javascript-tictactoe/">Link to Demo</a>
+                <br></br>
+                <a className="link" href="https://github.com/FaiyaazHawk/javascript-tictactoe">Link to Repo</a>
             </div>
             <Foot/>
             </Container>
