@@ -1,9 +1,9 @@
 import React from "react";
 import Foot from "../Foot";
 import { Container } from "react-bootstrap";
-import cart from '/home/faiyaaz/the-odin-project/personal-page/src/assets/gifs/Shopping cart.gif'
-import game from '/home/faiyaaz/the-odin-project/personal-page/src/assets/gifs/memory-game.gif'
-import ttt from '/home/faiyaaz/the-odin-project/personal-page/src/assets/gifs/Tictactoe.gif'
+import cart from '../assets/gifs/Shopping cart.gif'
+import game from '../assets/gifs/memory-game.gif'
+import ttt from '../assets/gifs/Tictactoe.gif'
 import '../Styles/Projects.scss'
 
 function Projects() {
