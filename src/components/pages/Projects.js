@@ -10,10 +10,10 @@ function Projects() {
     return (
         <main>
             <Container>
-            <h1>Projects</h1>
+            <h1><u>Projects</u></h1>
             <div className="project-card">
                 <h3><u>Store with cart</u></h3>
-                <p>E-commerce site with a basic Cart</p>
+                <p>E-commerce site with a basic Cart. Built with React, React-Bootstrap</p>
                 <img src={cart} alt="gif of shopping cart project"></img>
                 <br></br>
                 <a className="link" href="https://react-shopping-cart-3hjk.vercel.app/">Link to Demo</a>
@@ -23,7 +23,7 @@ function Projects() {
             <div className="project-card">
                 <h3><u>Memory Game</u></h3>
                 <p>Simple game of recollection. Select each character once 
-                <br></br>while the deck gets shuffled. Not yet optimized for mobile</p>
+                <br></br>while the deck gets shuffled. Built using React. (Not yet optimized for mobile)</p>
                 <img src={game} alt="gif of memory game"></img>
                 <br></br>
                 <a className="link" href="https://react-memory-game-eta.vercel.app/">Link to Demo</a>

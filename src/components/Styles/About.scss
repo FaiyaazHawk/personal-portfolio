@@ -20,10 +20,16 @@ main {
 .photo{
     border: solid 2px rebeccapurple;
     border-radius: 30px;
-    width: 500px;
+    min-width: 425px;
     height: auto;
 }
 
-.carousel-inner img {
-    margin: auto;
-  }
+
+
+.carousel-item {
+    text-align: center;
+}
+
+li {
+    font-size: 1.2rem;
+}

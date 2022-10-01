@@ -17,8 +17,8 @@ function About() {
     return (
         <main>
           <Container>
-            <h1>About Me</h1>
-            <p>Hi there, I've recently gotten into software developement as a hobby and thought "Why not make it a profession?"
+            <h1><u>About Me</u></h1>
+            <p>Hello there, I've recently gotten into software developement as a hobby and thought "Why not make it a profession?"
               So, here I am with a little website to showcase my journey. In my spare time, I like to make music and build Gundam plastic models.
             </p>
             <h3>Here are the technologies I know</h3>
@@ -39,6 +39,7 @@ function About() {
                 </ul>
             </section>
             <h2>Some gundams I built and painted</h2>
+            <Container>
             <Carousel fade className="carousel">
       
       <Carousel.Item>
@@ -99,6 +100,7 @@ function About() {
       </Carousel.Item>
       
     </Carousel>
+    </Container>
     <Foot/>
     </Container>
         </main>
