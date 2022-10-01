@@ -5,6 +5,12 @@ import '../Styles/About.scss'
 import { Container } from "react-bootstrap";
 import cartoon from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/cartoon.jpg'
 import vidar from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/vidar.jpg'
+import amatsu from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/amatsu mina.jpg'
+import cartoon2 from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/cartoon2.jpg'
+import cartoon3 from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/cartoon3.jpg'
+import fight from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/fight.jpg'
+import shot from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/shot.jpg'
+
 
 
 function About() {
@@ -32,6 +38,7 @@ function About() {
                     <li>Google DevTools <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google"/></li>
                 </ul>
             </section>
+            <h2>Some gundams I built and painted</h2>
             <Carousel fade className="carousel">
       
       <Carousel.Item>
@@ -50,6 +57,47 @@ function About() {
         />
 
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="photo"
+          src={amatsu}
+          alt="amatsu mina"
+        />
+
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="photo"
+          src={cartoon2}
+          alt="another bael in toon shade"
+        />
+
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="photo"
+          src={cartoon3}
+          alt="Bael in toon shade posing"
+        />
+
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="photo"
+          src={fight}
+          alt="painted rx72 and astaroth"
+        />
+
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="photo"
+          src={shot}
+          alt="gun shooting gundam"
+        />
+
+      </Carousel.Item>
+      
     </Carousel>
     <Foot/>
     </Container>
