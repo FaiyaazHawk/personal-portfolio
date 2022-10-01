@@ -3,13 +3,13 @@ import Carousel from 'react-bootstrap/Carousel';
 import Foot from "../Foot";
 import '../Styles/About.scss'
 import { Container } from "react-bootstrap";
-import cartoon from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/cartoon.jpg'
-import vidar from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/vidar.jpg'
-import amatsu from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/amatsu mina.jpg'
-import cartoon2 from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/cartoon2.jpg'
-import cartoon3 from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/cartoon3.jpg'
-import fight from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/fight.jpg'
-import shot from '/home/faiyaaz/the-odin-project/personal-page/src/assets/images/shot.jpg'
+import cartoon from '../assets/images/cartoon.jpg'
+import vidar from '../assets/images/vidar.jpg'
+import amatsu from '../assets/images/amatsu mina.jpg'
+import cartoon2 from '../assets/images/cartoon2.jpg'
+import cartoon3 from '../assets/images/cartoon3.jpg'
+import fight from '../assets/images/fight.jpg'
+import shot from '../assets/images/shot.jpg'
 
 
 
