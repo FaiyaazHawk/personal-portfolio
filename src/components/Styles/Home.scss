@@ -24,3 +24,10 @@
 .link {
     color: antiquewhite;
 }
+
+.link:hover {
+    
+    font-size:1.5em;
+    transition: 0.8s ease-out;
+
+}
