@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import '../Styles/About.scss'
 import { Container } from "react-bootstrap";
+import resume from '../Faiyaaz-Resume.pdf'
 import cartoon from '../assets/images/cartoon.jpg'
 import vidar from '../assets/images/vidar.jpg'
 import amatsu from '../assets/images/amatsu mina.jpg'
@@ -17,9 +18,11 @@ function About() {
         <main>
           <Container>
             <h1><u>About Me</u></h1>
-            <p>Hello there, I've recently gotten into software developement as a hobby and thought "Why not make it a profession?"
-              So, here I am with a little website to showcase my journey. In my spare time, I like to make music and build Gundam plastic models.
+            <p>Hello there, I've recently gotten into software developement as a hobby and thought "Why not try to make it a profession?"
+              So, here I am with a little website to showcase my journey. In my spare time, I like to make music and build Gundam plastic models(Gunpla). Click <a className="resume" href={resume} target="_blank" rel="noopener noreferrer"><strong>this link</strong></a> to have
+              a look at my resume!
             </p>
+            
             <h3>Here are the technologies I know</h3>
             <section>
                 <ul>
@@ -35,7 +38,7 @@ function About() {
                     <li>Linux <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"/></li>
                 </ul>
             </section>
-            <h5>Some gundams I built and painted</h5>
+            <h5>Some Gunpla I built and painted</h5>
             <Container>
             <Carousel fade className="carousel">
       
