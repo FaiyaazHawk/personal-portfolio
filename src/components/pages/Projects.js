@@ -1,5 +1,4 @@
 import React from "react";
-import Foot from "../Foot";
 import { Container } from "react-bootstrap";
 import cart from '../assets/gifs/Shopping cart.gif'
 import game from '../assets/gifs/memory-game.gif'
@@ -39,7 +38,7 @@ function Projects() {
                 <br></br>
                 <a className="link" href="https://github.com/FaiyaazHawk/javascript-tictactoe">Link to Repo</a>
             </div>
-            <Foot/>
+            
             </Container>
         </main>
     )

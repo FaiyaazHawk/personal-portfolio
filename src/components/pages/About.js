@@ -1,6 +1,5 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import Foot from "../Foot";
 import '../Styles/About.scss'
 import { Container } from "react-bootstrap";
 import cartoon from '../assets/images/cartoon.jpg'
@@ -36,7 +35,7 @@ function About() {
                     <li>Linux <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"/></li>
                 </ul>
             </section>
-            <h2>Some gundams I built and painted</h2>
+            <h5>Some gundams I built and painted</h5>
             <Container>
             <Carousel fade className="carousel">
       
@@ -99,7 +98,6 @@ function About() {
       
     </Carousel>
     </Container>
-    <Foot/>
     </Container>
         </main>
     )
