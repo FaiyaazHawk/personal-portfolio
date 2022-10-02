@@ -34,8 +34,6 @@ function About() {
                     <li>Python <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/></li>
                     <li>Webpack <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="Webpack"/></li>
                     <li>Linux <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"/></li>
-                    <li>VS Code <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode"/></li>
-                    <li>Google DevTools <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google"/></li>
                 </ul>
             </section>
             <h2>Some gundams I built and painted</h2>
