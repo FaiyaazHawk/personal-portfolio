@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import cart from '../assets/gifs/Shopping cart.gif'
 import game from '../assets/gifs/memory-game.gif'
 import ttt from '../assets/gifs/Tictactoe.gif'
+import portfolio from '../assets/gifs/portfolio.gif'
 import '../Styles/Projects.scss'
 
 function Projects() {
@@ -37,6 +38,15 @@ function Projects() {
                 <a className="link" href="https://faiyaazhawk.github.io/javascript-tictactoe/">Link to Demo</a>
                 <br></br>
                 <a className="link" href="https://github.com/FaiyaazHawk/javascript-tictactoe">Link to Repo</a>
+            </div>
+            <div className="project-card">
+                <h3><u>Porfolio website</u></h3>
+                <p>Why not look at the code that I wrote for this site?</p>
+                <img src={portfolio} alt="gif of this site"></img>
+                <br></br>
+                <a className="link" href="https://personal-portfolio-beta-peach.vercel.app/">Link to Demo(...recursion)</a>
+                <br></br>
+                <a className="link" href="https://github.com/FaiyaazHawk/personal-portfolio">Link to Repo</a>
             </div>
             
             </Container>
