@@ -28,7 +28,7 @@ main {
 .photo{
     border: solid 2px rebeccapurple;
     border-radius: 30px;
-    min-width: 425px;
+    min-width: 100%;
     height: auto;
 }
 
@@ -36,6 +36,9 @@ main {
     color: antiquewhite;
 }
 
+.carousel {
+    padding-bottom: 2em;
+}
 .carousel-item {
     text-align: center;
 }
