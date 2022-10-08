@@ -1,8 +1,9 @@
 import React from "react";
 import '../Styles/Home.scss'
 import Foot from "../Foot";
+import resume from '../Faiyaaz-Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope, faFileAlt } from "@fortawesome/free-regular-svg-icons";
 import { faGithubSquare, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -27,6 +28,9 @@ function Home() {
                     </a>
                     <a className="link" href="mailto:faiyaaz.haque90@gmail.com">
                         <FontAwesomeIcon icon={faEnvelope} />
+                    </a>
+                    <a className="link" href={resume} target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faFileAlt} />
                     </a>
                 </span>
                 
