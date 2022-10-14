@@ -23,7 +23,7 @@ function Projects() {
             <div className="project-card">
                 <h3><u>Memory Game</u></h3>
                 <p>Simple game of recollection. Select each character once 
-                <br></br>while the deck gets shuffled. Built using React. (Not yet optimized for mobile)</p>
+                <br></br>while the deck gets shuffled. Built using React.</p>
                 <img src={game} alt="gif of memory game"></img>
                 <br></br>
                 <a className="link" href="https://react-memory-game-eta.vercel.app/">Link to Demo</a>
