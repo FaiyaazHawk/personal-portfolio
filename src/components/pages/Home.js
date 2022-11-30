@@ -15,7 +15,7 @@ function Home() {
         <>
             <main className="hero">
                 <h1>Faiyaaz Haque</h1>
-                <h3>Software Developer</h3>
+                
                 <span className="social-links">
                     <a className="link" href="https://twitter.com/fhwack" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faTwitter} />
