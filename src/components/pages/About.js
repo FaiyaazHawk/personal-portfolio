@@ -12,6 +12,8 @@ import fight from '../assets/images/fight.jpg'
 import shot from '../assets/images/shot.jpg'
 
 
+          
+          
 
 function About() {
     return (
@@ -30,6 +32,8 @@ function About() {
                     <li>HTML5 <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"/></li>
                     <li>CSS3 <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"/></li>
                     <li>JavaScript <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/></li>
+                    <li>Node.js <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js"/></li>
+                    <li>Express <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express"/></li>
                     <li>Git <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/></li>
                     <li>SQL <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="Sql"/></li>
                     <li>Ruby <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="Ruby"/></li>
