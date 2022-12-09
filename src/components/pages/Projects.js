@@ -40,7 +40,7 @@ function Projects() {
                 <a className="link" href="https://github.com/FaiyaazHawk/javascript-tictactoe">Link to Repo</a>
             </div>
             <div className="project-card">
-                <h3><u>Porfolio website</u></h3>
+                <h3><u>Portfolio website</u></h3>
                 <p>Why not look at the code that I wrote for this site?</p>
                 <img src={portfolio} alt="gif of this site"></img>
                 <br></br>
