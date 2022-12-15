@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import cart from '../assets/gifs/Shopping cart.gif'
 import game from '../assets/gifs/memory-game.gif'
 import ttt from '../assets/gifs/Tictactoe.gif'
+import vita from '../assets/gifs/vita-store.gif'
 import portfolio from '../assets/gifs/portfolio.gif'
 import '../Styles/Projects.scss'
 
@@ -11,6 +12,15 @@ function Projects() {
         <main>
             <Container>
             <h1><u>Projects</u></h1>
+            <div className="project-card">
+                <h3><u>Game Inventory</u></h3>
+                <p>Game Inventory app with CRUD capability. Built with Node.js, Express.Js, Mongoose, MongoDb and Pug</p>
+                <img src={vita} alt="gif of game inventory app"></img>
+                <br></br>
+                <a className="link" href="https://vita-games-production.up.railway.app/">Link to Demo</a>
+                <br></br>
+                <a className="link" href="https://github.com/FaiyaazHawk/vita-games">Link to Repo</a>
+            </div>
             <div className="project-card">
                 <h3><u>Store with cart</u></h3>
                 <p>E-commerce site with a basic Cart. Built with React, React-Bootstrap</p>
