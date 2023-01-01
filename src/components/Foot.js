@@ -3,7 +3,7 @@ import './Styles/Foot.scss'
 
 function Foot() {
     return (
-        <footer>Made with React</footer>
+        <footer></footer>
     )
 
 }

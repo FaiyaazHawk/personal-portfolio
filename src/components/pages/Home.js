@@ -1,5 +1,6 @@
 import React from "react";
 import '../Styles/Home.scss'
+import logo from "../assets/gifs/logo.gif"
 import Foot from "../Foot";
 import resume from '../Faiyaaz_Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -14,6 +15,10 @@ function Home() {
     return (
         <>
             <main className="hero">
+                
+                <img className="p-logo" src={logo} alt="Faiyaaz's Logo"></img>
+                
+                
                 <h1>Faiyaaz Haque</h1>
                 
                 <span className="social-links">
