@@ -11,11 +11,11 @@ function Projects() {
     return (
         <main>
             <Container>
-            <h1><u>Projects</u></h1>
+            <h1>Projects</h1>
             <div className="project-card">
                 <h3><u>Game Inventory</u></h3>
                 <p>Game Inventory app with CRUD capability. Built with Node.js, Express.Js, Mongoose, MongoDb and Pug</p>
-                <img src={vita} alt="gif of game inventory app"></img>
+                <img className="gif" src={vita} alt="gif of game inventory app"></img>
                 <br></br>
                 <a className="link" href="https://vita-games-production.up.railway.app/">Link to Demo</a>
                 <br></br>
@@ -24,7 +24,7 @@ function Projects() {
             <div className="project-card">
                 <h3><u>Store with cart</u></h3>
                 <p>E-commerce site with a basic Cart. Built with React, React-Bootstrap</p>
-                <img src={cart} alt="gif of shopping cart project"></img>
+                <img className="gif" src={cart} alt="gif of shopping cart project"></img>
                 <br></br>
                 <a className="link" href="https://react-shopping-cart-3hjk.vercel.app/">Link to Demo</a>
                 <br></br>
@@ -34,7 +34,7 @@ function Projects() {
                 <h3><u>Memory Game</u></h3>
                 <p>Simple game of recollection. Select each character once 
                 <br></br>while the deck gets shuffled. Built using React.</p>
-                <img src={game} alt="gif of memory game"></img>
+                <img className="gif" src={game} alt="gif of memory game"></img>
                 <br></br>
                 <a className="link" href="https://react-memory-game-eta.vercel.app/">Link to Demo</a>
                 <br></br>
@@ -43,7 +43,7 @@ function Projects() {
             <div className="project-card">
                 <h3><u>JavaScript Tic-Tac-Toe</u></h3>
                 <p>Simple way to play tic-tac-toe using JavaScript</p>
-                <img src={ttt} alt="gif of tic tac toe game"></img>
+                <img className="gif" src={ttt} alt="gif of tic tac toe game"></img>
                 <br></br>
                 <a className="link" href="https://faiyaazhawk.github.io/javascript-tictactoe/">Link to Demo</a>
                 <br></br>
@@ -52,7 +52,7 @@ function Projects() {
             <div className="project-card">
                 <h3><u>Portfolio website</u></h3>
                 <p>Why not look at the code that I wrote for this site?</p>
-                <img src={portfolio} alt="gif of this site"></img>
+                <img className="gif" src={portfolio} alt="gif of this site"></img>
                 <br></br>
                 <a className="link" href="https://personal-portfolio-beta-peach.vercel.app/">Link to Demo(...recursion)</a>
                 <br></br>

@@ -22,11 +22,21 @@ h1{
     background-color: #fff;
     color: #333;
     border-radius: 10px;
-    max-width: 100vw;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px ridge #333;
 }
 
-img{
+.gif{
     width: 50%;
     height: auto;
-    
+    border: 5px ridge #333;
+}
+
+img {
+    width: 50%;
+    height: auto;
 }
