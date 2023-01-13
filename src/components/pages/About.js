@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import '../Styles/About.scss'
 import { Container } from "react-bootstrap";
-import resume from '../Faiyaaz_Resume.pdf'
+import resume from '../Faiyaaz_s_Resume.pdf'
 import cartoon from '../assets/images/cartoon.jpg'
 import vidar from '../assets/images/vidar.jpg'
 import amatsu from '../assets/images/amatsu mina.jpg'

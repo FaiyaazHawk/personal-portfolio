@@ -5,6 +5,7 @@ import game from '../assets/gifs/memory-game.gif'
 import ttt from '../assets/gifs/Tictactoe.gif'
 import vita from '../assets/gifs/vita-store.gif'
 import portfolio from '../assets/gifs/portfolio.gif'
+import messageboard from '../assets/gifs/message-board.gif'
 import '../Styles/Projects.scss'
 
 function Projects() {
@@ -12,6 +13,15 @@ function Projects() {
         <main>
             <Container>
             <h1>Projects</h1>
+            <div className="project-card">
+                <h3><u>Message Board</u></h3>
+                <p>Message board app with login authentication and posting feature. Built with Node.js, Express.Js, Mongoose, MongoDb, Pug and Passport.js </p>
+                <img className="gif" src={messageboard} alt="gif of message board app"></img>
+                <br></br>
+                <a className="link" href="https://message-board-production-bfb0.up.railway.app/">Link to Demo</a>
+                <br></br>
+                <a className="link" href="https://github.com/FaiyaazHawk/message-board">Link to Repo</a>
+            </div>
             <div className="project-card">
                 <h3><u>Game Inventory</u></h3>
                 <p>Game Inventory app with CRUD capability. Built with Node.js, Express.Js, Mongoose, MongoDb and Pug</p>

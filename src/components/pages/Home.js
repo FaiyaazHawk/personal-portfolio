@@ -2,7 +2,7 @@ import React from "react";
 import '../Styles/Home.scss'
 import logo from "../assets/gifs/logo.gif"
 import Foot from "../Foot";
-import resume from '../Faiyaaz_Resume.pdf'
+import resume from '../Faiyaaz_s_Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faFileAlt } from "@fortawesome/free-regular-svg-icons";
 import { faGithubSquare, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
