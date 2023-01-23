@@ -18,7 +18,7 @@ function Projects() {
                 <p>Message board app with login authentication and posting feature. Built with Node.js, Express.Js, Mongoose, MongoDb, Pug and Passport.js </p>
                 <img className="gif" src={messageboard} alt="gif of message board app"></img>
                 <br></br>
-                <a className="link" href="https://message-board-production-bfb0.up.railway.app/">Link to Demo</a>
+                <a className="link" href="https://message-board-a9ln.onrender.com">Link to Demo</a>
                 <br></br>
                 <a className="link" href="https://github.com/FaiyaazHawk/message-board">Link to Repo</a>
             </div>
