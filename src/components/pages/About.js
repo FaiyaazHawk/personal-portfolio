@@ -22,7 +22,7 @@ function About() {
           <Container>
             <h1>About Me</h1>
             <p>Hello there, I've recently gotten into software development as a hobby and thought "Why not try to make it a profession?"
-              So, here I am with a little website to showcase my journey. In my spare time, I like to make music and build Gundam plastic models(Gunpla). Click <a className="resume" href={resume} target="_blank" rel="noopener noreferrer"><strong>this link</strong></a> to have
+              So, here I am with a little website to showcase my journey so far. In my spare time, I like to make music and build Gundam plastic models(Gunpla). Click <a className="resume" href={resume} target="_blank" rel="noopener noreferrer"><strong>this link</strong></a> to have
               a look at my resume!
             </p>
             
@@ -33,6 +33,7 @@ function About() {
                     <li>HTML5 <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"/></li>
                     <li>CSS3 <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"/></li>
                     <li>JavaScript <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/></li>
+                    <li>TypeScript <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript"/></li>
                     <li>Node.js <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"/></li>
                     <li>Express <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express"/></li>
                     <li>Git <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/></li>
