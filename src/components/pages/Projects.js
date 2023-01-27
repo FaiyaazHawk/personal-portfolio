@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import aninext from "../assets/gifs/ani-next.gif"
 import cart from '../assets/gifs/Shopping cart.gif'
 import game from '../assets/gifs/memory-game.gif'
 import ttt from '../assets/gifs/Tictactoe.gif'
@@ -13,6 +14,15 @@ function Projects() {
         <main>
             <Container>
             <h1>Projects</h1>
+            <div className="project-card">
+                <h3><u>Ani-Next</u></h3>
+                <p>Anime Streaming frontend created with React and TypeScript. Frontend fed by Consumet API </p>
+                <img className="gif" src={aninext} alt="gif of Ani-Next"></img>
+                <br></br>
+                <a className="link" href="https://ani-next-five.vercel.app/">Link to Demo</a>
+                <br></br>
+                <a className="link" href="https://github.com/FaiyaazHawk/Ani-Next">Link to Repo</a>
+            </div>
             <div className="project-card">
                 <h3><u>Message Board</u></h3>
                 <p>Message board app with login authentication and posting feature. Built with Node.js, Express.Js, Mongoose, MongoDb, Pug and Passport.js </p>
