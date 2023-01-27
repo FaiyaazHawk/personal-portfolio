@@ -16,7 +16,7 @@ function Projects() {
             <h1>Projects</h1>
             <div className="project-card">
                 <h3><u>Ani-Next</u></h3>
-                <p>Anime Streaming frontend created with React and TypeScript. Frontend fed by Consumet API </p>
+                <p>Anime Streaming frontend created with React and TypeScript. Data consumed from by Consumet API </p>
                 <img className="gif" src={aninext} alt="gif of Ani-Next"></img>
                 <br></br>
                 <a className="link" href="https://ani-next-five.vercel.app/">Link to Demo</a>
