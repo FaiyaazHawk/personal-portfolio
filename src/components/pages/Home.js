@@ -20,6 +20,9 @@ function Home() {
                 
                 
                 <h1>Faiyaaz Haque</h1>
+                <span>
+                    Learn more about <a className="link" href="/About">me</a> and my <a className="link" href="/Projects">projects</a>
+                </span>
                 
                 <span className="social-links">
                     <a className="link" href="https://twitter.com/fhwack" target="_blank" rel="noopener noreferrer">

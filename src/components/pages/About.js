@@ -21,8 +21,8 @@ function About() {
         <main>
           <Container>
             <h1>About Me</h1>
-            <p>Hello there, I've recently gotten into software development as a hobby and thought "Why not try to make it a profession?"
-              So, here I am with a little website to showcase my journey so far. In my spare time, I like to make music and build Gundam plastic models(Gunpla). Click <a className="resume" href={resume} target="_blank" rel="noopener noreferrer"><strong>this link</strong></a> to have
+            <p>Hello there, I've gotten into software development as a hobby and thought "Why not make it a profession since you enjoy it so much?"
+              So, here I am with a little website to showcase my endless journey so far. In my spare time, I like to make music and build Gundam plastic models(Gunpla). Click <a className="resume" href={resume} target="_blank" rel="noopener noreferrer"><strong>this link</strong></a> to have
               a look at my resume!
             </p>
             
