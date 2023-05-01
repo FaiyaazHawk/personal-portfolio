@@ -61,15 +61,6 @@ function Projects() {
                 <a className="link" href="https://github.com/FaiyaazHawk/React-memory-game">Link to Repo</a>
             </div>
             <div className="project-card">
-                <h3><u>JavaScript Tic-Tac-Toe</u></h3>
-                <p>Simple way to play tic-tac-toe using JavaScript</p>
-                <img className="gif" src={ttt} alt="gif of tic tac toe game"></img>
-                <br></br>
-                <a className="link" href="https://faiyaazhawk.github.io/javascript-tictactoe/">Link to Demo</a>
-                <br></br>
-                <a className="link" href="https://github.com/FaiyaazHawk/javascript-tictactoe">Link to Repo</a>
-            </div>
-            <div className="project-card">
                 <h3><u>Portfolio website</u></h3>
                 <p>Why not look at the code that I wrote for this site?</p>
                 <img className="gif" src={portfolio} alt="gif of this site"></img>
